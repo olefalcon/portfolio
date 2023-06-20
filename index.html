@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="bootstrap-override.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+<div class="jumbotron text-left text-uppercase text-white">
+    <div class="container">
+        <br><br><br><br><br><br>
+        <h1>Ian Smith <img src="images/ian-avatar.jpg" id="ian-avatar" class="img-fluid rounded-circle"></h1>
+        <p>Software Engineer - Game Developer - Music Producer</p>
+    </div>
+</div>
+
+<div class="container my-5 px-5">
+    <h1 class="text-center text-uppercase">About Me</h2>
+    <p class="px-5">I am a passionate programmer with experience in Shopify development, game development and design, music production, and pixel art. I became obsessed with programming when I first started web design in early high school. From then on I spent a good portion on my time experimenting with making web games and then unity games. This lead me to pursue a career in development and attending Penn State University. While there, I was heavily involved in the Video Game Design and Development club and was elected Vice President. After graduating with a bachelor's degree in Computer Science, I am looking forward to what lies ahead in life!</p>
+</div>
+
+<div class="container my-5 px-5">
+    <h1 class="text-uppercase text-center">What I Do</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Development</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>Javascript</li>
+                    <li>Jquery, React</li>
+                    <li>Shopify Liquid</li>
+                    <li>PHP, SQL</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h3>Design</h3>
+                <ul>
+                    <li>Proven Team Leader</li>
+                    <li>Great Collaborator</li>
+                    <li>Git Version Control</li>
+                    <li>Project Management Tools</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h3>& More!</h3>
+                <ul>
+                    <li>Audio Design</li>
+                    <li>Pixel Art</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5 px-5">
+    <h1 class="text-center text-uppercase">Here's Proof</h2>
+    <nav>
+        <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-dev-tab" data-bs-toggle="tab" data-bs-target="#nav-dev" type="button" role="tab" aria-controls="nav-dev" aria-selected="true">Development Projects</button>
+            <button class="nav-link" id="nav-exp-tab" data-bs-toggle="tab" data-bs-target="#nav-exp" type="button" role="tab" aria-controls="nav-exp" aria-selected="false">Work & Education Experience</button>
+            <button class="nav-link" id="nav-misc-tab" data-bs-toggle="tab" data-bs-target="#nav-misc" type="button" role="tab" aria-controls="nav-misc" aria-selected="false">Misc Projects</button>
+        </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <!-- Dev Projects -->
+            <div class="tab-pane fade show active" id="nav-dev" role="tabpanel" aria-labelledby="nav-dev-tab">
+                <!-- Missile Run -->
+                <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/missile-run-screenshot.png" class="media-left w-100">
+                        </div>
+                        <div class="col-8">
+                            <h3>Missile Run</h3>
+                            <p>Online multiplayer arcade game developed in Unity</p>
+                            <p><a href='https://olefalcon.itch.io/missile-run'>Itch.io Page</a> &#9830; <a href='https://github.com/olefalcon/Missile-Run'>Github Repo</a></p>
+                            <button type="button" class='btn' data-bs-toggle="collapse" data-bs-target="#missile-run-collapse">Read More</button>
+                        </div>
+                    </div>
+                    <div id="missile-run-collapse" class="collapse">
+                        <div class="row pt-5">
+                            <div class="col-6">
+                                <h3 class="text-center">What I Did</h3>
+                                <ul>
+                                    <li>Used Unity and C# To program game features</li>
+                                    <li>Used Mirror Networking and Epic Online Service to implement P2P multiplayer</li>
+                                    <li>Tested the game and made version updates to add features and fix bugs</li>
+                                    <li>Deployed the game to itch.io</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-center">What I Learned</h3>
+                                <ul>
+                                    <li>How to research and find solutions using less documented technology</li>
+                                    <li>Best practices for writing multiplayer game code</li>
+                                    <li>How Peer-to-peer (P2P) multiplayer works</li>
+                                    <li>How to properly maintain a github repo and a game page</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Camp Lilac -->
+                <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                    <div class="row">
+                        <div class="col-8">
+                            <h3>Camp Lilac</h3>
+                            <p>2D platformer RPG game collaboratively developed in Unity</p>
+                            <p><a href='https://github.com/SeanMcLL/CampLilac'>Github Repo</a></p>
+                            <button type="button" class='btn' data-bs-toggle="collapse" data-bs-target="#camp-lilac-collapse">Read More</button>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/camp-lilac-screenshot.png" class="media-left w-100">
+                        </div>
+                    </div>
+                    <div id="camp-lilac-collapse" class="collapse">
+                        <div class="row pt-5">
+                            <div class="col-6">
+                                <h3 class="text-center">What I Did</h3>
+                                <ul>
+                                    <li>Used Unity and C# To program game features</li>
+                                    <li>Programmed custom components for combat system</li>
+                                    <li>Used project planning tools like Trello</li>
+                                    <li>Designed pixel art for characters and backgrounds</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-center">What I Learned</h3>
+                                <ul>
+                                    <li>How to lead and work with a team</li>
+                                    <li>Using version control with other collaborators and handling merges</li>
+                                    <li>Prioritize tasks to be done and document processes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Survivor -->
+                <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/survivor-screenshot.png" class="media-left w-100">
+                        </div>
+                        <div class="col-8">
+                            <h3>Survivor</h3>
+                            <p>Browser-based island survival simulation game</p>
+                            <p><a href='/survivor'>Play</a> &#9830; <a href='https://github.com/olefalcon/survivor'>Github Repo</a></p>
+                            <button type="button" class='btn' data-bs-toggle="collapse" data-bs-target="#survivor-collapse">Read More</button>
+                        </div>
+                    </div>
+                    <div id="survivor-collapse" class="collapse">
+                        <div class="row pt-5">
+                            <div class="col-6">
+                                <h3 class="text-center">What I Did</h3>
+                                <ul>
+                                    <li>Used Bootstrap and Jquery to design and program game</li>
+                                    <li>Recieved feedback from testers and implemented changes</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-center">What I Learned</h3>
+                                <ul>
+                                    <li>How to use Bootstrap to quickly and cleanly implement web UI</li>
+                                    <li>How to use Jquery to manipulate HTML elements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Work Experience -->
+        <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">
+            <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                <h3>Penn State University</h3>
+                <h5>Bachelor's Degree in Computer Science</h5>
+                <h6>August 2019 - May 2023</h6>
+                <ul>
+                    <li>Vice President of the Video Game Design and Development Club</li>
+                    <li>GPA: 3.65</li>
+                </ul>
+            </div>
+            <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                <h3>Shopify Development</h3>
+                <h5>Freelance</h5>
+                <h6>May 2022 - August 2022</h6>
+                <ul>
+                    <li>Developed customizable Shopify themes for clients using Shopify Liquid</li>
+                    <li>Improve advertisement campaign tracking for clients by improving event matching in Facebook Pixel</li>
+                    <li>Communicated with client and freelance partners to prioritize needs and objectives</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Misc Projects -->
+        <div class="tab-pane fade" id="nav-misc" role="tabpanel" aria-labelledby="nav-misc-tab">
+            <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/crusvder2.jpg" class="w-100">
+                    </div>
+                    <div class="col-2">
+                        <img src="images/crusvder3.jpg" class="w-100">
+                    </div>
+                    <div class="col-2">
+                        <img src="images/crusvder4.png" class="w-100">
+                    </div>
+                    <div class="col-6">
+                        <h3>CRUSVDER</h3>
+                        <h5>Tearout Dubstep Producer/DJ Project</h5>
+                        <h6>April 2022 - Present</h6>
+                        <ul>
+                            <li>Multiple House Show Gigs in State College</li>
+                            <li>Releases on Hellhound Audio and Clueless Audio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-white text-primary m-4 p-4 border-bottom border-primary">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>2skinny</h3>
+                        <h5>Hyperpop Project</h5>
+                        <h6>2017 - Present</h6>
+                        <ul>
+                            <li>Producing music since 2017 and doing vocals since 2021</li>
+                            <li>Two self releases on Spotify</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/2skinny1.png" class="w-100">
+                    </div>
+                    <div class="col-2">
+                        <img src="images/2skinny2.png" class="w-100">
+                    </div>
+                    <div class="col-2">
+                        <img src="images/2skinny3.png" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5 px-5 text-center">
+    <h1 class="text-uppercase">Contact Me</h2>
+    <p><a href="mailto:olefalcon@gmail.com">Email Me</a> at olefalcon@gmail.com</p>
+</div>
+
+
+
+</body>
+</html>

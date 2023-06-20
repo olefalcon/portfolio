@@ -1,2 +1,2 @@
 # portfolio
-web portfolio for Ian Smith
+My Web Portfolio
